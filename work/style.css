@@ -1,0 +1,32 @@
+.section {
+  padding-bottom: 30px;
+}
+.tab__list {
+  display: flex;
+  gap: 30px;
+}
+.tab__item {
+  background-color: #313131;
+  color: #cecece;
+  border: none;
+  border-radius: 8px;
+  padding: 9px;
+}
+
+.tab__item:hover {
+  background-color: #4e4d4d;
+}
+.slider__item {
+  display: none;
+}
+.slider__item.active {
+  display: block;
+}
+.slider {
+  margin: 20px auto;
+  display: flex;
+}
+.slider img {
+  width: 90%;
+  border-radius: 30px;
+}

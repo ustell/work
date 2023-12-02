@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="section">
+      <div class="tab__list">
+        <button class="tab__item" onclick="selectSlider('dog')">Собачки</button>
+        <button class="tab__item" onclick="selectSlider('cat')">Кошечки</button>
+      </div>
+
+      <div id="dog" class="slider__item active">
+        <div class="slider">
+          <div>
+            <img src="https://klike.net/uploads/posts/2023-01/1675061216_3-25.jpg" />
+          </div>
+          <div>
+            <img
+              src="https://fikiwiki.com/uploads/posts/2022-02/1644866231_6-fikiwiki-com-p-shchenki-krasivie-kartinki-6.jpg"
+            />
+          </div>
+          <div>
+            <img
+              src="https://otkrit-ka.ru/uploads/posts/2021-07/krasivye-foto-kartinki-sobachki-7.jpg"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="cat" class="slider__item">
+        <div class="slider">
+          <div>
+            <img
+              src="https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666264304_9-mykaleidoscope-ru-p-kartinki-s-koshechkami-krasivo-13.jpg"
+            />
+          </div>
+          <div><img src="https://fanibani.ru/wp-content/uploads/2021/07/milie004.jpg" /></div>
+          <div>
+            <img
+              src="https://gas-kvas.com/grafic/uploads/posts/2023-09/1695816928_gas-kvas-com-p-kartinki-koshechka-7.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
